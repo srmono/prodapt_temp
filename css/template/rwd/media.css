@@ -1,0 +1,48 @@
+/* body{
+    background-color: gold;
+} */
+
+#products{
+    width: 1425px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#products .product{
+    width: 300px;
+    background-color: aquamarine;
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1260px) {
+    #products{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #products .product{
+        width: 50%;
+        background-color: aquamarine;
+    }
+    /* body{
+        background-color: tomato;
+    } */
+}
+
+@media screen and (max-width:767px) {
+    /* body{
+        background-color:greenyellow;
+    } */
+    #products{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #products .product{
+        width: 100%;
+        background-color: aquamarine;
+    }
+}

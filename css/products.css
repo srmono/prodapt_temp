@@ -1,0 +1,31 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product{
+    width: 180px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid maroon;
+}
+
+.product img{
+    width: 140px;
+    height: auto;
+}
+.product h4{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.range{
+    color: tomato;
+    margin-bottom: 10px;
+}
+.product:hover{
+    border: 5px solid orange;
+}

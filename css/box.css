@@ -1,0 +1,9 @@
+#box {
+    height: 360px;
+    background: gold;
+    /* margin: 20px 30px 10px 40px; */
+    margin: 20px 30px;
+    /* margin-top: 20px; */
+    padding: 20px 30px;
+    border: 5px solid #879799;
+}

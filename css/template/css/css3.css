@@ -1,0 +1,21 @@
+#box{
+    /* border-top-right-radius: 25px; */
+
+    border-radius: 200px/200px;
+    width: 300px;
+    height: 300px;
+    /* background:linear-gradient(20deg, #c66, gold); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+    box-shadow: 10px 15px 20px #c66;
+    overflow: hidden;
+    /* -moz-transform: scale(4) rotate(25deg) translateX(-25px) translateY(45px) skewX(20deg) skewY(36deg);
+-webkit-transform: scale(4) rotate(25deg) translateX(-25px) translateY(45px) skewX(20deg) skewY(36deg);
+-o-transform: scale(4) rotate(25deg) translateX(-25px) translateY(45px) skewX(20deg) skewY(36deg);
+-ms-transform: scale(4) rotate(25deg) translateX(-25px) translateY(45px) skewX(20deg) skewY(36deg); */
+transform: scale(4) rotate(25deg) translateX(-25px) translateY(45px) skewX(20deg) skewY(36deg);
+}

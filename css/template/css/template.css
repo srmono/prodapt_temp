@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: gold;
+}
+
+#logo img{
+    width: 180px;
+    height: auto;
+}
+header .container{
+    width: 1265px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#headernav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li{
+    display: inline;
+}

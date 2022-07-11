@@ -1,0 +1,150 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    background: gold;
+}
+
+header .container, main .container {
+    margin: 0px auto;
+    width: 1252px;
+    padding: 10px;
+}
+
+header img{
+    width: 180px;
+    height: auto;
+}
+
+#menu{
+    /* float: right; */
+    margin-top: 16px;
+}
+#headernav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li{
+    
+    display: inline;
+}
+
+#logo{
+    /* float: left; */
+}
+
+.clear{
+    clear: both;
+}
+
+#menu li a:link{
+    color: tomato;
+    text-decoration: none;
+    padding: 10px 25px;
+    /* background-color: aqua; */
+}
+
+#menu li a:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+
+
+
+
+/* Flex styles start here */
+
+#products{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    /* justify-content:center; */
+    /* align-items: center;
+    height: 450px;
+    background-color: gold; */
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+.product{
+   flex-grow: 1;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid maroon;
+}
+
+.product img{
+    width: 140px;
+    height: auto;
+}
+.product h4{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.range{
+    color: tomato;
+    margin-bottom: 10px;
+}
+.product:hover{
+    border: 5px solid orange;
+}
+
+/* Flex styles end here */
