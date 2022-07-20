@@ -1,0 +1,18 @@
+---Install angular
+    npm i -g @angular/cli@11.2.13
+
+---Create project
+    ng new appdemo
+-- project directory structure
+
+main.ts 
+
+-- create component
+    ng g c dirname/component_name
+
+
+Create dynamic apps and UI
+full featured framework (http, router)
+integrated typescript (optional)
+RxJS , 
+testing friendly 
